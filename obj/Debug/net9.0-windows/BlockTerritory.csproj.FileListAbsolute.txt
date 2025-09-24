@@ -1,0 +1,17 @@
+D:\BlockTerritory\obj\Debug\net9.0-windows\BlockTerritory.Form1.resources
+D:\BlockTerritory\obj\Debug\net9.0-windows\BlockTerritory.csproj.GenerateResource.cache
+D:\BlockTerritory\obj\Debug\net9.0-windows\BlockTerritory.GeneratedMSBuildEditorConfig.editorconfig
+D:\BlockTerritory\obj\Debug\net9.0-windows\BlockTerritory.AssemblyInfoInputs.cache
+D:\BlockTerritory\obj\Debug\net9.0-windows\BlockTerritory.AssemblyInfo.cs
+D:\BlockTerritory\obj\Debug\net9.0-windows\BlockTerritory.csproj.CoreCompileInputs.cache
+D:\BlockTerritory\bin\Debug\net9.0-windows\BlockTerritory.exe
+D:\BlockTerritory\bin\Debug\net9.0-windows\BlockTerritory.deps.json
+D:\BlockTerritory\bin\Debug\net9.0-windows\BlockTerritory.runtimeconfig.json
+D:\BlockTerritory\bin\Debug\net9.0-windows\BlockTerritory.dll
+D:\BlockTerritory\bin\Debug\net9.0-windows\BlockTerritory.pdb
+D:\BlockTerritory\obj\Debug\net9.0-windows\BlockTerritory.dll
+D:\BlockTerritory\obj\Debug\net9.0-windows\refint\BlockTerritory.dll
+D:\BlockTerritory\obj\Debug\net9.0-windows\BlockTerritory.pdb
+D:\BlockTerritory\obj\Debug\net9.0-windows\BlockTerritory.genruntimeconfig.cache
+D:\BlockTerritory\obj\Debug\net9.0-windows\ref\BlockTerritory.dll
+D:\BlockTerritory\obj\Debug\net9.0-windows\BlockGo_ControlPanel.Form2.resources
