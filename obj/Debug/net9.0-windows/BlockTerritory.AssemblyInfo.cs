@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlockTerritory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4887ad1ea8da68c61dbd24cbee4fae7fb90a4b39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aca24dae905fa072fed0450089ee83d2a77c07d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlockTerritory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlockTerritory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

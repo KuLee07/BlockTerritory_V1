@@ -50,3 +50,4 @@ C:\Users\KuLee\Desktop\git_update\BlockTerritory_V1\obj\Debug\net9.0-windows\ref
 C:\Users\KuLee\Desktop\git_update\BlockTerritory_V1\obj\Debug\net9.0-windows\BlockTerritory.pdb
 C:\Users\KuLee\Desktop\git_update\BlockTerritory_V1\obj\Debug\net9.0-windows\BlockTerritory.genruntimeconfig.cache
 C:\Users\KuLee\Desktop\git_update\BlockTerritory_V1\obj\Debug\net9.0-windows\ref\BlockTerritory.dll
+C:\Users\KuLee\Desktop\git_update\BlockTerritory_V1\obj\Debug\net9.0-windows\BlockTerritory.Properties.Resources.resources
