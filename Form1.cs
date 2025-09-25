@@ -5,8 +5,8 @@ namespace BlockTerritory
 {
     public partial class Form1 : Form
     {
-        public int MCTS_First = 500;
-        public int MCTS_Second = 500;
+        public int MCTS_First = 1000;
+        public int MCTS_Second = 1000;
         public int MCTS_Enemy = 50;
 
         delegate void update1(string str);

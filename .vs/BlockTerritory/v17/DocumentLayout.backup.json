@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KuLee\\Desktop\\BlockTerritory_V1-main\\",
+  "WorkspaceRootPath": "C:\\Users\\KuLee\\Desktop\\git_update\\BlockTerritory_V1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECF3C353-5CEF-4349-8C7B-7F7349AEA343}|BlockTerritory.csproj|c:\\users\\kulee\\desktop\\blockterritory_v1-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ECF3C353-5CEF-4349-8C7B-7F7349AEA343}|BlockTerritory.csproj|c:\\users\\kulee\\desktop\\git_update\\blockterritory_v1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECF3C353-5CEF-4349-8C7B-7F7349AEA343}|BlockTerritory.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECF3C353-5CEF-4349-8C7B-7F7349AEA343}|BlockTerritory.csproj|C:\\Users\\KuLee\\Desktop\\BlockTerritory_V1-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{ECF3C353-5CEF-4349-8C7B-7F7349AEA343}|BlockTerritory.csproj|C:\\Users\\KuLee\\Desktop\\git_update\\BlockTerritory_V1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{ECF3C353-5CEF-4349-8C7B-7F7349AEA343}|BlockTerritory.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECF3C353-5CEF-4349-8C7B-7F7349AEA343}|BlockTerritory.csproj|c:\\users\\kulee\\desktop\\blockterritory_v1-main\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECF3C353-5CEF-4349-8C7B-7F7349AEA343}|BlockTerritory.csproj|solutionrelative:setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECF3C353-5CEF-4349-8C7B-7F7349AEA343}|BlockTerritory.csproj|c:\\users\\kulee\\desktop\\blockterritory_v1-main\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECF3C353-5CEF-4349-8C7B-7F7349AEA343}|BlockTerritory.csproj|solutionrelative:rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECF3C353-5CEF-4349-8C7B-7F7349AEA343}|BlockTerritory.csproj|c:\\users\\kulee\\desktop\\blockterritory_v1-main\\dimension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECF3C353-5CEF-4349-8C7B-7F7349AEA343}|BlockTerritory.csproj|solutionrelative:dimension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,10 +24,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "C:\\Users\\KuLee\\Desktop\\BlockTerritory_V1-main\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\KuLee\\Desktop\\git_update\\BlockTerritory_V1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\KuLee\\Desktop\\BlockTerritory_V1-main\\Form1.cs [\u8A2D\u8A08]",
-              "RelativeToolTip": "Form1.cs [\u8A2D\u8A08]",
+              "ToolTip": "C:\\Users\\KuLee\\Desktop\\git_update\\BlockTerritory_V1\\Form1.cs [\u8A2D\u8A08]*",
+              "RelativeToolTip": "Form1.cs [\u8A2D\u8A08]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T14:12:46.74Z",
               "EditorCaption": " [\u8A2D\u8A08]"
@@ -48,52 +36,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\KuLee\\Desktop\\BlockTerritory_V1-main\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\KuLee\\Desktop\\git_update\\BlockTerritory_V1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\KuLee\\Desktop\\BlockTerritory_V1-main\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADsBAAAAAAAAAAAiwFMBAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\KuLee\\Desktop\\git_update\\BlockTerritory_V1\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T01:44:47.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dimension.cs",
-              "DocumentMoniker": "C:\\Users\\KuLee\\Desktop\\BlockTerritory_V1-main\\Dimension.cs",
-              "RelativeDocumentMoniker": "Dimension.cs",
-              "ToolTip": "C:\\Users\\KuLee\\Desktop\\BlockTerritory_V1-main\\Dimension.cs",
-              "RelativeToolTip": "Dimension.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T21:05:44.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Rule.cs",
-              "DocumentMoniker": "C:\\Users\\KuLee\\Desktop\\BlockTerritory_V1-main\\Rule.cs",
-              "RelativeDocumentMoniker": "Rule.cs",
-              "ToolTip": "C:\\Users\\KuLee\\Desktop\\BlockTerritory_V1-main\\Rule.cs",
-              "RelativeToolTip": "Rule.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAASwIcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T21:04:25.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "setting.cs",
-              "DocumentMoniker": "C:\\Users\\KuLee\\Desktop\\BlockTerritory_V1-main\\setting.cs",
-              "RelativeDocumentMoniker": "setting.cs",
-              "ToolTip": "C:\\Users\\KuLee\\Desktop\\BlockTerritory_V1-main\\setting.cs",
-              "RelativeToolTip": "setting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T21:02:34.671Z",
               "EditorCaption": ""
             }
           ]
