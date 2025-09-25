@@ -15,7 +15,7 @@ namespace BlockTerritory
         {
 
             int i = (action / 2) % setting.BoardSizeXY; //X
-            int j = action / 2 * setting.BoardSizeXY; //Y
+            int j = action / (2 * setting.BoardSizeXY); //Y
             int k = action % 2; //Z
 
             return i.ToString() + ";" + j.ToString() + ";" + k.ToString();

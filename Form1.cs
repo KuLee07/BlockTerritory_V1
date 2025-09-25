@@ -7,7 +7,7 @@ namespace BlockTerritory
     {
         public int MCTS_First = 500;
         public int MCTS_Second = 500;
-        public int MCTS_Enemy = 1000;
+        public int MCTS_Enemy = 50;
 
         delegate void update1(string str);
         delegate void upadte2(int[,] Board);
@@ -243,19 +243,19 @@ namespace BlockTerritory
             Invoke(updateMsg, "***遊戲開始***");
 
 
-            while (Rule.IsGameOver(Board_SingleMode) == false)
+            while (true)
             {
                 //先手(黑子)
                 MCTS.select(MCTS_First, 1, Board_SingleMode);
                 Invoke(updateMsg, "\a黑子思考完畢");
-
                 Invoke(ReNewBoard, Board_SingleMode);
+                if (Rule.IsGameOver(Board_SingleMode) == true) break;
 
                 //後手(白子)
                 MCTS.select(MCTS_Second, 2, Board_SingleMode);
                 Invoke(updateMsg, "\a白子思考完畢");
-
                 Invoke(ReNewBoard, Board_SingleMode);
+                if (Rule.IsGameOver(Board_SingleMode) == true) break;
             }
 
             //檢查是誰勝利
@@ -292,17 +292,11 @@ namespace BlockTerritory
             Invoke(updateMsg, "***遊戲開始***");
 
             //比10回合
-            while (Rule.IsGameOver(Board_SingleMode) == false)
+            while (true)
             {
                 if (WhoFirst.ToString() == "FirstPlayer")
                 {
                     //==玩家先手==
-
-                    //後手(白子)
-                    MCTS.select(Convert.ToInt32(MCTS_Enemy), 2, Board_SingleMode);
-                    Invoke(updateMsg, "\a白子思考完畢");
-                    Invoke(ReNewBoard, Board_SingleMode);
-
                     //先手(黑子)
                     Array.Copy(Board_SingleMode, TempBoard, BoardSizeXY * BoardSizeXY);
                     TempPlayer = 1;
@@ -310,10 +304,23 @@ namespace BlockTerritory
                     Invoke(updateBtn, true);
                     TaskWaitControl.WaitOne();  //這裡暫停，等UI事件TaskWaitControl.Set()
                     Array.Copy(TempBoard, Board_SingleMode, BoardSizeXY * BoardSizeXY);
+                    if (Rule.IsGameOver(Board_SingleMode) == true) break;
+
+
+                    //後手(白子)
+                    MCTS.select(Convert.ToInt32(MCTS_Enemy), 2, Board_SingleMode);
+                    Invoke(updateMsg, "\a白子思考完畢");
+                    Invoke(ReNewBoard, Board_SingleMode);
+                    if (Rule.IsGameOver(Board_SingleMode) == true) break;
                 }
                 else
                 {
                     //==玩家後手==
+                    //先手(黑子)
+                    MCTS.select(Convert.ToInt32(MCTS_Enemy), 1, Board_SingleMode);
+                    Invoke(updateMsg, "\a黑子思考完畢");
+                    Invoke(ReNewBoard, Board_SingleMode);
+                    if (Rule.IsGameOver(Board_SingleMode) == true) break;
 
                     //後手(白子)
                     Array.Copy(Board_SingleMode, TempBoard, BoardSizeXY * BoardSizeXY);
@@ -322,14 +329,8 @@ namespace BlockTerritory
                     Invoke(updateBtn, true);
                     TaskWaitControl.WaitOne();  //這裡暫停，等UI事件TaskWaitControl.Set()
                     Array.Copy(TempBoard, Board_SingleMode, BoardSizeXY * BoardSizeXY);
-
-                    //先手(黑子)
-                    MCTS.select(Convert.ToInt32(MCTS_Enemy), 1, Board_SingleMode);
-                    Invoke(updateMsg, "\a黑子思考完畢");
-                    Invoke(ReNewBoard, Board_SingleMode);
+                    if (Rule.IsGameOver(Board_SingleMode) == true) break;
                 }
-
-
             }
 
             //檢查是誰勝利

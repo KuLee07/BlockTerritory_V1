@@ -46,8 +46,8 @@ namespace BlockTerritory
             }
 
             if (ToBoard[1, 0] >= setting.BoardSizeXY || ToBoard[1, 1] >= setting.BoardSizeXY) return false;
-            else if (ReadBoard[ToBoard[0, 0], ToBoard[0, 1]] != 0) return false;
-            else if (ReadBoard[ToBoard[1, 0], ToBoard[1, 1]] != 0) return false;
+            if (ReadBoard[ToBoard[0, 0], ToBoard[0, 1]] != 0) return false;
+            if (ReadBoard[ToBoard[1, 0], ToBoard[1, 1]] != 0) return false;
 
             return true;
         }
@@ -120,7 +120,17 @@ namespace BlockTerritory
                 {
                     if (ReadBoard[x, y] == 0)
                     {
-                        return false;
+                        //因為是由左至右，由上至下的掃棋盤
+                        //所以只要看右邊跟下面就好
+                        if (x < (setting.BoardSizeXY - 1))
+                        {
+                            if (ReadBoard[x + 1, y] == 0) return false;
+                        }
+
+                        if (y < (setting.BoardSizeXY - 1))
+                        {
+                            if (ReadBoard[x, y + 1] == 0) return false;
+                        }
                     }
                 }
             }
