@@ -62,5 +62,45 @@
 
 ## 遊戲展示
 
+1. 遊戲初始畫面
 
+<img width="894" height="628" alt="image" src="https://github.com/user-attachments/assets/40e5abe6-51c4-48ca-9778-fbe549b82efb" />
+
+-------------------------------------------------------------
+
+2. 在setting.cs檔案中，可以更改棋盤大小，請不要超過12，以免超出程式介面
+
+<img width="448" height="376" alt="image" src="https://github.com/user-attachments/assets/a2b1ed85-1796-482b-b6e0-7dd2af670dbe" />
+
+-------------------------------------------------------------
+
+3. MCTS的計算次數可在Form1.cs檔案中更改
+
+  MCTS_First為**MCTS相互對戰版本的先手計算次數**
+  
+  MCTS_Second為**MCTS相互對戰版本的後手計算次數**
+
+  MCTS_Enemy為**玩家對上MCTS的計算次數**
+
+<img width="662" height="551" alt="image" src="https://github.com/user-attachments/assets/60b7762b-ab1c-4073-88f4-2209dbc29809" />
+
+-------------------------------------------------------------
+
+4. 選擇 MCTS VS MCTS後，按下GO即可開始遊戲
+
+<img width="899" height="644" alt="image" src="https://github.com/user-attachments/assets/54e1eb54-670b-452f-af47-03fd8a2ed7fc" />
+
+-------------------------------------------------------------
+
+5. 選擇 玩家 VS MCTS後，玩家需要先選擇先後手順序
+
+<img width="895" height="626" alt="image" src="https://github.com/user-attachments/assets/d10bec36-16aa-454d-b8f8-443eef014158" />
+
+-------------------------------------------------------------
+
+6. 一次連下兩顆(選定位置會反灰)，按下確定落子後即為玩家選定的先後手棋子顏色，如果再確認落子前，想要更換位置，按下清除落子即可
+
+<img width="901" height="622" alt="image" src="https://github.com/user-attachments/assets/c2203bf1-3472-4a29-a61e-8d7b5c4e0170" />
+
+<img width="1000" height="641" alt="image" src="https://github.com/user-attachments/assets/82308a97-8d1a-40b0-abe5-850294726622" />
 
