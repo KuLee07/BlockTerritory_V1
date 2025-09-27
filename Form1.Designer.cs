@@ -39,7 +39,7 @@
             // btnCancel
             // 
             btnCancel.Font = new Font("Microsoft JhengHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            btnCancel.Location = new Point(443, 144);
+            btnCancel.Location = new Point(582, 200);
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new Size(133, 50);
             btnCancel.TabIndex = 4;
@@ -50,7 +50,7 @@
             // btnConfirm
             // 
             btnConfirm.Font = new Font("Microsoft JhengHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            btnConfirm.Location = new Point(443, 88);
+            btnConfirm.Location = new Point(732, 200);
             btnConfirm.Name = "btnConfirm";
             btnConfirm.Size = new Size(133, 50);
             btnConfirm.TabIndex = 3;

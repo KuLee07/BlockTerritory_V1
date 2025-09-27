@@ -8,6 +8,6 @@ namespace BlockTerritory
 {
     internal class setting
     {
-        public int BoardSizeXY = 6;
+        public int BoardSizeXY = 12;
     }
 }
